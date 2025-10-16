@@ -25,13 +25,8 @@ export const MarketSection = () => {
         <ScrollReveal variant="slide-up">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-6xl font-black mb-6">
-              <span className="text-white">Market</span>
-              <br />
-              <span className="text-gradient-tron">Position</span>
+              <span className="text-gradient-tron">Market Position</span>
             </h2>
-            <p className="text-xl text-white/80 max-w-3xl mx-auto">
-              While others are weak, we are STRONG. Built on the most powerful blockchain.
-            </p>
           </div>
         </ScrollReveal>
 
@@ -113,18 +108,6 @@ export const MarketSection = () => {
           </div>
         </ScrollReveal>
 
-        {/* Call to Action */}
-        <ScrollReveal variant="pop" delay={0.4}>
-          <div className="text-center mt-12">
-            <div className="inline-block bg-gradient-to-r from-red-600 to-purple-600 p-1 rounded-2xl">
-              <div className="bg-slate-900 rounded-xl px-8 py-4">
-                <p className="text-white text-lg font-bold">
-                  "While they're making useless tokens, we're building the STRONGEST community on TRON"
-                </p>
-              </div>
-            </div>
-          </div>
-        </ScrollReveal>
       </div>
     </section>
   );

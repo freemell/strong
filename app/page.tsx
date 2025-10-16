@@ -4,9 +4,7 @@ import { HeroSection } from "@/components/sections/hero-section";
 import { AboutSection } from "@/components/sections/about-section";
 import { MarketSection } from "@/components/sections/market-section";
 import { ContractSection } from "@/components/sections/contract-section";
-import { TokenomicsSection } from "@/components/sections/tokenomics-section";
 import { CommunitySection } from "@/components/sections/community-section";
-import { RoadmapSection } from "@/components/sections/roadmap-section";
 import { FooterSection } from "@/components/sections/footer-section";
 
 export default function Home() {
@@ -23,9 +21,7 @@ export default function Home() {
       <AboutSection />
       <MarketSection />
       <ContractSection />
-      <TokenomicsSection />
       <CommunitySection />
-      <RoadmapSection />
       <FooterSection />
     </main>
   );

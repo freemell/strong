@@ -44,13 +44,8 @@ export const CommunitySection = () => {
         <ScrollReveal variant="slide-up">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-6xl font-black mb-6">
-              <span className="text-white">Community</span>
-              <br />
-              <span className="text-gradient-tron">That Gets It</span>
+              <span className="text-gradient-tron">Community</span>
             </h2>
-            <p className="text-xl text-white/80 max-w-3xl mx-auto">
-              Join the STRONGEST community in crypto. Where memes meet money and everyone gets it.
-            </p>
           </div>
         </ScrollReveal>
 
@@ -121,81 +116,6 @@ export const CommunitySection = () => {
           ))}
         </div>
 
-        {/* Community Stats */}
-        <ScrollReveal variant="slide-up" delay={0.4}>
-          <div className="bg-gradient-to-r from-purple-500/20 to-pink-500/20 backdrop-blur-sm rounded-2xl p-8 border border-purple-500/30">
-            <h3 className="text-2xl font-bold text-white mb-8 text-center">Community Power</h3>
-            <div className="grid md:grid-cols-4 gap-6">
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.1 }}
-                viewport={{ once: true }}
-                className="text-center"
-              >
-                <div className="text-3xl font-bold text-purple-400 mb-2">10K+</div>
-                <div className="text-white/70">Community Members</div>
-              </motion.div>
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.2 }}
-                viewport={{ once: true }}
-                className="text-center"
-              >
-                <div className="text-3xl font-bold text-pink-400 mb-2">50K+</div>
-                <div className="text-white/70">Social Engagement</div>
-              </motion.div>
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.3 }}
-                viewport={{ once: true }}
-                className="text-center"
-              >
-                <div className="text-3xl font-bold text-blue-400 mb-2">24/7</div>
-                <div className="text-white/70">Active Community</div>
-              </motion.div>
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.4 }}
-                viewport={{ once: true }}
-                className="text-center"
-              >
-                <div className="text-3xl font-bold text-yellow-400 mb-2">100%</div>
-                <div className="text-white/70">Diamond Hands</div>
-              </motion.div>
-            </div>
-          </div>
-        </ScrollReveal>
-
-        {/* IYKYK Badge */}
-        <ScrollReveal variant="pop" delay={0.6}>
-          <div className="text-center mt-12">
-            <motion.div
-              animate={{
-                rotate: [0, 5, -5, 0],
-                scale: [1, 1.05, 1],
-              }}
-              transition={{
-                duration: 4,
-                repeat: Infinity,
-                ease: "easeInOut",
-              }}
-              className="inline-block bg-gradient-to-r from-yellow-500 to-orange-500 p-1 rounded-2xl"
-            >
-              <div className="bg-slate-900 rounded-xl px-8 py-4">
-                <div className="flex items-center justify-center space-x-3">
-                  <span className="text-yellow-400 text-2xl">💎</span>
-                  <span className="text-white text-xl font-bold">IYKYK</span>
-                  <span className="text-yellow-400 text-2xl">💎</span>
-                </div>
-                <p className="text-white/70 mt-2">If You Know, You Know</p>
-              </div>
-            </motion.div>
-          </div>
-        </ScrollReveal>
       </div>
     </section>
   );

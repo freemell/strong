@@ -108,15 +108,6 @@ export const FooterSection = () => {
               </div>
             </ScrollReveal>
 
-            {/* Disclaimer */}
-            <ScrollReveal variant="slide-left">
-              <div className="text-center md:text-right">
-                <p className="text-white/50 text-sm max-w-md">
-                  This is a meme coin. DYOR. Not financial advice. 
-                  Only invest what you can afford to lose.
-                </p>
-              </div>
-            </ScrollReveal>
           </div>
 
           {/* Final Message */}
